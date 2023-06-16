@@ -11,7 +11,7 @@ class UpperCaseExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
-        $loader =  new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/'));
+        $loader =  new YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/'));
         $loader->load('services.yaml');
     }
 }
