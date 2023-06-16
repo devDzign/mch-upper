@@ -1,0 +1,26 @@
+{
+  "name": "mch/upper-case-bundle",
+  "version": "0.1.0",
+  "type": "symfony-bundle",
+  "description": "upper case word",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MCH\\UpperCaseBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MCH\\UpperCaseBundle\\Tests": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "CHABOUR Mourad",
+      "email": "chabour.mourad87@gmail.com"
+    }
+  ]
+}
